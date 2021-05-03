@@ -13,4 +13,9 @@ export class ProductService {
   GetProducts() : Observable <any> {
     return this.http.get('https://localhost:44349/api/allproducts');
   }
+  
+  GetStaffDetails() : Observable <any>{
+    return this.http.get('https://localhost:44349/api/staffdetails');
+  }
+
 }
