@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { HelloComponent } from './hello/hello.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StaffDetailesComponent } from './staff-detailes/staff-detailes.component';
+import { HelooComponent } from './heloo/heloo.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { StaffDetailesComponent } from './staff-detailes/staff-detailes.componen
     AppComponent,
     ProductsComponent,
     HelloComponent,
-    StaffDetailesComponent
+    StaffDetailesComponent,
+    HelooComponent
   ],
   imports: [
     BrowserModule,
